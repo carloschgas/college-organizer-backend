@@ -20,6 +20,7 @@ public class Disciplina {
     @Id
     private String id_disciplina;
 
+    private String nome;
     private int semestre;
     private int creditos;
 
