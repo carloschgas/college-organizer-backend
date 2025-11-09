@@ -17,7 +17,7 @@ import java.util.UUID;
 @Getter
 
 @Entity
-@Table(name = "disciplinasPorPeriodo")
+@Table(name = "disciplinas_por_periodo")
 public class DisciplinaPorPeriodo {
 
     @Id
