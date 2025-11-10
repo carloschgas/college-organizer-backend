@@ -1,5 +1,5 @@
 CREATE TABLE disciplinas_por_periodo (
-    id CHAR(36) NOT NULL DEFAULT (UUID()) PRIMARY KEY,
+    id CHAR(36) NOT NULL PRIMARY KEY,
     id_disciplina VARCHAR(10) NULL,
     nome_periodo VARCHAR(50) NOT NULL,
 
