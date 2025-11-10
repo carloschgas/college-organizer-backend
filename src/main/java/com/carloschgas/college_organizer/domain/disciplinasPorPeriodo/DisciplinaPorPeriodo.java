@@ -26,9 +26,9 @@ public class DisciplinaPorPeriodo {
 
     @ManyToOne
     @JoinColumn(name = "id_disciplina")
-    private Disciplina id_disciplina;
+    private Disciplina disciplina;
 
     @ManyToOne
     @JoinColumn(name = "nome_periodo")
-    private PeriodoGraduacao nome_periodo;
+    private PeriodoGraduacao periodo;
 }
